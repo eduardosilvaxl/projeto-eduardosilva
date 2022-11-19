@@ -1,21 +1,28 @@
 body {
-    background-color: #111224;
-    text-align: center;
+    height: 100vh;
+    background: linear-gradient(#232630,#050507);
+    padding: 0;
     margin: 0;
 }
 
 .mudar {
-    margin-left: 33%;
-    margin-top: -30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .mudar nav, a{
     color: #CBD5E1; 
     text-decoration: none; 
     font-size: 20px; 
-    margin-left: 20px;
     font-weight: bold;
     font-family: 'League Spartan', sans-serif;
+}
+
+.navBar {
+    display: flex;
+    gap: 1rem;
 }
 
 .items {
@@ -24,12 +31,11 @@ body {
     align-items: center
 }
 
-#tag {
+.tag {
     text-decoration: none; 
     color: white; 
     display: flex; 
     justify-content: left;
-    margin: 10px 69% 0 310px;
     font-size: 45px; 
     font-style: inherit; 
     font-weight: bold; 
@@ -38,7 +44,7 @@ body {
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#tag:hover {
+.tag:hover {
     color: #b2b4ca;
     transition: calc(1s);
 }
@@ -58,13 +64,28 @@ body {
 }
 
 .navegacao {
-    height: 250px;
     display: flex;
-    flex-direction: column-reverse;
     justify-content: space-around;
-    margin-left: 96%;
-    margin-top: 600px;
-    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    right: 50%;
+    position: absolute;
+    gap: 3px;
+}
+
+.icons {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.thingsLike {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 80%;
+    padding-left: 15rem;
+
 }
 
 .img {
@@ -84,26 +105,34 @@ body {
 
 .fotopf {
     border-radius: 100%;
-    height: 200px;
-    margin-right: 28%;
-} 
+    height: 250px;
+    width: 300px;
+}
 
 .f-container {
     display: flex;
     width: 100%;
-    height: 300px;
+    flex-direction: column;
+    margin-top: 3rem;
     align-items: center;
     justify-content: center;
-    gap: 10px;      
 }
 
 .sobre-m {
-    margin-left: 3%;
-    margin-right: 3%;
-    text-align: justify;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
     font-size: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #a4acc2;
+}
+
+.aboutMe {
+    text-align: justify;
+    width: 60%;
+    line-height: 2rem;
 }
 
 #cor {
