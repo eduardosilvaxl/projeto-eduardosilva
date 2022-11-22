@@ -78,6 +78,11 @@ body {
     color: #fff;
 }
 
+.mail {
+    font-size: 5rem;
+    color: #fff;
+}
+
 .thingsLike {
     display: flex;
     flex-direction: column;
@@ -135,7 +140,7 @@ body {
     line-height: 2rem;
 }
 
-#cor {
+.cor {
     color: cadetblue;   
 }
 
@@ -194,7 +199,11 @@ h2 {
     border-radius: 20px;
 }
 
-.btn-links {
+.portfolio_div {
+    text-align: center;
+}
+
+button {
     background-color: #1d2257;
     color: aliceblue;
     border: 0;
@@ -202,4 +211,63 @@ h2 {
     font-size: 20px;
     font-family: 'League Spartan', sans-serif;
     cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 36%;
+    width: 35%;
+    color: #FFF;
+    position: absolute;
+    left: 34%;
+    top: 30%;
+    gap: 22px;
+    font-family: 'League Spartan', sans-serif;
+    background-color: rgb(177, 25, 25);
+    border-radius: 10px;
+}
+
+.contact p{
+    margin: 0;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.contact span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact a{
+    text-decoration: underline; 
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.home-page {
+    display: flex;
+    height: 87%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-page p {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.name_home {
+    width: 400px;
+    height: 250px;
+}
+
+.hacker {
+    width: 300px;
+    height: 400px;
 }
