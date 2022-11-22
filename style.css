@@ -31,24 +31,6 @@ body {
     align-items: center
 }
 
-.tag {
-    text-decoration: none; 
-    color: white; 
-    display: flex; 
-    justify-content: left;
-    font-size: 45px; 
-    font-style: inherit; 
-    font-weight: bold; 
-    font-family: -apple-system, BlinkMacSystemFont, 
-    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
-    'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.tag:hover {
-    color: #b2b4ca;
-    transition: calc(1s);
-}
-
 #name-home {
     text-decoration: none; 
     color: white; 
@@ -141,7 +123,7 @@ body {
 }
 
 .cor {
-    color: cadetblue;   
+    color: #3d5a7e;   
 }
 
 .paragrafo {
@@ -185,11 +167,7 @@ h2 {
     'Helvetica Neue', sans-serif;
 }
 
-.projetos {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.projetos_img {
     width: 100%;
     height: 420px;
 }
@@ -201,6 +179,10 @@ h2 {
 
 .portfolio_div {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
@@ -211,6 +193,15 @@ button {
     font-size: 20px;
     font-family: 'League Spartan', sans-serif;
     cursor: pointer;
+    padding: 6px;
+}
+
+.container-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
 }
 
 .contact {
@@ -218,16 +209,12 @@ button {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 36%;
-    width: 35%;
     color: #FFF;
-    position: absolute;
-    left: 34%;
-    top: 30%;
     gap: 22px;
     font-family: 'League Spartan', sans-serif;
-    background-color: rgb(177, 25, 25);
+    background-color: #121113;
     border-radius: 10px;
+    padding: 5rem;
 }
 
 .contact p{
@@ -242,7 +229,7 @@ button {
 }
 
 .contact a{
-    text-decoration: underline; 
+    text-decoration: none; 
     color: #FFF;
     font-size: 1.5rem;
 }
@@ -252,22 +239,38 @@ button {
     height: 87%;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
 .home-page p {
+    margin-left: 1rem;
     color: #FFF;
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-weight: bold;
     font-family: 'League Spartan', sans-serif;
 }
 
 .name_home {
-    width: 400px;
-    height: 250px;
+    width: 200px;
+    height: 120px;
 }
 
 .hacker {
     width: 300px;
     height: 400px;
+}
+
+.btn {
+    padding: 1.5rem;
+    background-color: #121113;
+    border: 2px solid #050507;
+    border-radius: 10px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+
+.btn:hover {
+    background-color: #232630;
 }
