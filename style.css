@@ -67,11 +67,11 @@ body {
 
 .thingsLike {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 80%;
-    padding-left: 15rem;
+    width: 53%;
+    padding-left: 16rem;
 
 }
 
@@ -128,15 +128,18 @@ body {
 
 .paragrafo {
     color: #CCD6F6;
-    font-size: larger;
+    font-size: 1.3rem;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .cont-p {
-    width: 190px;
+    margin: 0;
+    width: 78%;
     display: flex;
-    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .c-gosto {
